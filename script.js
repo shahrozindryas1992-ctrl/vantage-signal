@@ -1,8 +1,1 @@
-const form = document.getElementById("subscribeForm");
-const message = document.getElementById("formMessage");
-
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
-  message.textContent = "Thanks. Newsletter signup will be connected in a later version.";
-  form.reset();
-});
+document.addEventListener('DOMContentLoaded',()=>{const menu=document.querySelector('.menu');const nav=document.querySelector('.nav');if(menu&&nav){menu.addEventListener('click',()=>{nav.classList.toggle('mobile-open')})}});
