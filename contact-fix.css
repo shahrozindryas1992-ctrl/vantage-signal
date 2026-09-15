@@ -1,0 +1,33 @@
+/* Contact page — editorial, structured, restrained */
+.library-hero{background:#07131d!important;color:#fff!important;padding:82px 0 72px!important}
+.library-hero h1{font-size:clamp(44px,4.8vw,60px)!important;line-height:1.02!important;letter-spacing:-.045em!important;max-width:760px!important;color:#fff!important}
+.library-hero .lede{font-size:16px!important;line-height:1.6!important;max-width:650px!important;margin-top:20px!important;color:#c6ced2!important}
+.contact-enhanced{background:#f4f2ed!important;padding:82px 0 90px!important}
+.contact-wrap{display:grid!important;grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr)!important;gap:70px!important;align-items:start!important}
+.contact-wrap>div:first-child{padding-top:10px!important;max-width:510px!important}
+.contact-wrap h2{font-family:'Space Grotesk',Arial,sans-serif!important;font-size:clamp(36px,3.8vw,48px)!important;line-height:1.03!important;letter-spacing:-.035em!important;color:#07131d!important;margin:0 0 18px!important}
+.contact-wrap>div:first-child>p:not(.eyebrow):not(.contact-note){font-size:16px!important;line-height:1.65!important;color:#56636b!important;margin:0!important}
+.contact-note{border-left:3px solid #f4d20a!important;padding:13px 0 13px 16px!important;margin-top:28px!important;font-size:12px!important;line-height:1.55!important;color:#68737b!important}
+.contact-card{background:#fff!important;border:1px solid #cbd0d2!important;padding:34px!important;box-shadow:10px 10px 0 #e1ddc9!important}
+.signal-form{display:grid!important;grid-template-columns:1fr 1fr!important;gap:20px!important}
+.signal-form label{display:flex!important;flex-direction:column!important;gap:8px!important;color:#07131d!important;font-size:11px!important;font-weight:800!important;letter-spacing:.04em!important}
+.signal-form label:nth-of-type(5),.signal-form label:nth-of-type(6),.signal-form button{grid-column:1/-1!important}
+.signal-form input,.signal-form select,.signal-form textarea{width:100%!important;border:1px solid #cbd0d2!important;background:#f8f8f5!important;color:#07131d!important;padding:13px 14px!important;font:15px/1.4 'DM Sans',Arial,sans-serif!important;border-radius:0!important;outline:none!important}
+.signal-form input:focus,.signal-form select:focus,.signal-form textarea:focus{border-color:#07131d!important;box-shadow:0 0 0 2px rgba(244,210,10,.35)!important;background:#fff!important}
+.signal-form textarea{resize:vertical!important;min-height:150px!important}
+.signal-form button{border:0!important;justify-self:start!important;cursor:pointer!important;margin-top:2px!important;font-size:12px!important;padding:13px 18px!important}
+@media(max-width:800px){
+ .contact-wrap{grid-template-columns:1fr!important;gap:45px!important}
+ .contact-wrap>div:first-child{max-width:680px!important}
+ .contact-card{padding:26px!important}
+}
+@media(max-width:600px){
+ .library-hero{padding:62px 0 55px!important}
+ .library-hero h1{font-size:40px!important}
+ .contact-enhanced{padding:65px 0 70px!important}
+ .contact-wrap h2{font-size:35px!important}
+ .signal-form{grid-template-columns:1fr!important;gap:18px!important}
+ .signal-form label:nth-of-type(5),.signal-form label:nth-of-type(6),.signal-form button{grid-column:auto!important}
+ .contact-card{padding:22px!important;box-shadow:6px 6px 0 #e1ddc9!important}
+ .signal-form button{width:100%!important;justify-content:center!important}
+}
