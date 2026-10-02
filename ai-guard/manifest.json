@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Vantage Signal AI Guard (Prototype)",
+  "version": "0.1.0",
+  "description": "Locally flags common sensitive-data patterns while composing prompts in supported AI chat websites.",
+  "permissions": [],
+  "host_permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://claude.ai/*",
+        "https://gemini.google.com/*",
+        "https://copilot.microsoft.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
