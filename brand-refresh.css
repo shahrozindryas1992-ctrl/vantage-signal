@@ -1,0 +1,36 @@
+/* Vantage Signal visual refresh: deep navy, cyan, slate; no yellow accents. */
+:root{--ink:#071522;--ink-2:#0b2030;--paper:#f2f6f8;--white:#fff;--muted:#627482;--line:#d4e0e6;--yellow:#19c5df;--yellow-soft:#d9f7fb;--accent:#19c5df;--accent-soft:#d9f7fb}
+body{background:var(--paper);color:#122432;font-size:15px;line-height:1.65}
+.site-header{background:rgba(5,16,27,.98);border-bottom-color:rgba(69,202,226,.18)}
+.brand em,.nav a:hover,.eyebrow,.category,.path-code,.method-step>span,.footer-brand span{color:#35d5e9!important}
+.nav-button{border-color:#1bbbd5!important;color:#4ad8e9!important}
+.primary-button{background:#0da9c6!important;border:1px solid #24d1e6!important;color:#041722!important;border-radius:5px!important}
+.primary-button:hover{background:#4dd9e9!important}
+.text-link,.path-link{color:#23c7df}
+.hero-section{background:radial-gradient(ellipse at 75% 40%,rgba(0,145,190,.15),transparent 44%),#071522}
+.hero-grid{min-height:460px!important;grid-template-columns:.92fr 1.08fr!important;align-items:stretch}
+.hero-section .hero-copy{padding:56px 35px 52px 0!important}
+.hero-section .hero-copy h1{font-size:clamp(34px,3.2vw,44px)!important;line-height:1.13!important;letter-spacing:-.025em!important;max-width:520px!important}
+.hero-section .lede{font-size:16px!important;max-width:520px}
+.hero-media{display:flex;align-items:center;justify-content:center;min-height:360px;padding:30px 0}
+.hero-media img{width:100%;height:370px;object-fit:cover;border:1px solid rgba(48,207,231,.25);border-radius:7px;box-shadow:0 20px 70px rgba(0,0,0,.25)}
+.eyebrow{font-size:10px!important;letter-spacing:.15em}
+.lede{font-size:16px!important;line-height:1.65!important}
+h1,h2,h3{line-height:1.18!important;letter-spacing:-.02em!important}
+.library-hero h1,.hero h1{font-size:clamp(34px,3.2vw,44px)!important;line-height:1.12!important}
+.path-intro h2,.feature-copy h2,.services-home .section-heading h2,.methodology .section-heading h2,.trust-grid h2,.organization-cta h2,.method-head h2{font-size:clamp(26px,2.5vw,34px)!important;line-height:1.2!important;letter-spacing:-.02em!important}
+.path-card h3,.service-card h3{font-size:22px!important;line-height:1.25!important;margin-top:30px!important}
+.feature-big{font-size:clamp(48px,5.5vw,76px)!important}
+.split-paths{background:#eaf1f4!important}
+.path-card{border-radius:7px!important;min-height:350px!important;box-shadow:0 6px 22px rgba(10,37,54,.04)}
+.path-card-dark{background:#0b2030!important}
+.dark-section,.featured-investigation{background:#071522!important}
+.feature-visual{background:linear-gradient(145deg,#0b2030,#102f42)!important;border-color:#1b566b!important;box-shadow:10px 10px 0 #06111a!important}
+.method-step,.library-card,.contact-card,.service-card{border-radius:7px!important}
+.organization-cta,.library-cta{background:#e5f0f4!important}
+.scope-note{border-left:3px solid #19c5df!important;background:rgba(25,197,223,.07)!important;padding:12px 16px!important}
+.footer{background:#06121e!important}
+.footer-bottom{border-top-color:rgba(80,192,213,.2)!important}
+section.section{padding-top:62px;padding-bottom:62px}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr!important}.hero-section .hero-copy{padding:50px 0 20px!important}.hero-media{min-height:250px;padding:10px 0 35px}.hero-media img{height:280px}.path-intro h2,.feature-copy h2,.services-home .section-heading h2,.methodology .section-heading h2,.trust-grid h2,.organization-cta h2,.method-head h2{font-size:30px!important}}
+@media(max-width:600px){body{font-size:14px}.hero-section .hero-copy h1{font-size:34px!important}.library-hero h1{font-size:32px!important}.path-card h3{font-size:21px!important}.hero-media img{height:230px}.path-grid{grid-template-columns:1fr}.container{width:min(100% - 32px,1180px)}}
